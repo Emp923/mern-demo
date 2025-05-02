@@ -93,7 +93,7 @@ const updateUser = asyncHandler(async (req, res) => {
 
 /**
  * @desc Delete a user
- * @route DELETE /users/:id
+ * @route DELETE /users
  * @access Private
  */
 const deleteUser = asyncHandler(async (req, res) => {
