@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();
 
+console.log(process.env.NODE_ENV);
+
 app.use(logger);
 
 app.use(cors(corsOptions));
